@@ -1,0 +1,1 @@
+THe week modules covers control flows using (for, while and match in python)conditional statements (if, elif, else). These are great building blocks in programming that tells the compputer how, when, and at sometimes a predefined time/way to execute a block of code.
