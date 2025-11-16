@@ -1,3 +1,5 @@
+# This code prompts the user to enter a task, its priority level, and whether it is time-bound.
+
 task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ").lower()
 time_bound = input("Is it time-bound? (yes/no): ").lower()
@@ -13,6 +15,6 @@ match priority:
         priority_text = "task of unknown priority"
 
 if time_bound == "yes":
-    print(f"\nReminder: '{task}' is a {priority_text} that requires immediate attention today!")
+    print(f"Reminder: '{task}' is a {priority_text} that requires immediate attention today!")
 else:
-    print(f"\nNote: '{task}' is a {priority_text}. Consider completing it when you have free time.")
+    print(f"Note: '{task}' is a {priority_text}. Consider completing it when you have free time.")
