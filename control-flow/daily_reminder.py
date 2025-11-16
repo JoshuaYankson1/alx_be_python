@@ -1,0 +1,18 @@
+task = input('Enter a task description for your daily reminder: ')
+priority = input('Enter the priority level (high, medium, low): ')
+time_bound = input('Is the task time bound? (yes/no): ')
+
+match priority:
+    case "high":
+        priority_text = "high priority task"
+    case "medium":
+        priority_text = "medium priority task"
+    case "low":
+        priority_text = "low priority task"
+    case _:
+        priority_text = "task of unknown priority"
+
+if time_bound == "yes":
+    print(f"\nReminder: '{task}' is a {priority_text} that requires immediate attention today!")
+else:
+    print(f"\nNote: '{task}' is a {priority_text}. Consider completing it when you have free time.")
