@@ -1,0 +1,3 @@
+Hi there, welcome to my ALX Backend preparation modules on Functions, Data Structures, and Modules. THis foundational knowldge forms a building block for the python programming language and a deeper understanding will help anyone who pursues the backend path of programming!
+
+Join me! as I explore these concepts through practical application...
